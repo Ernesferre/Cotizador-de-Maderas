@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap');
+
+body{
+  background-image: url("wood6.jpg");
+  margin: auto;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: -webkit-center;
+  display: flex;
+  flex-direction: column;
+  font-family: Anton, Caudex, sans-serif;
+}
+
+header{
+  background: rgba(199, 152, 21, 0.3);
+  border-style: inset;
+  border-color: rgba(55, 83, 82, 0.5);
+  justify-content: center;
+  display: flex;
+  border-radius: 1rem;
+}
+
+h1{
+  color: #CCF0E5;
+  text-shadow: 3px 3px 4px black;   
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.wood {
+  background: rgb(219, 162, 61, 0.7);
+  padding: 1rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.row-title {
+  justify-content: center;
+  margin: 0 0 0 0;
+  text-decoration: underline;
+}
+
+.button-bar {
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* .space-buttons {
+  /* media query aca para meter espacio*/
+/* }  */
+
+.wood1 {
+  background: rgb(219, 162, 61, 0.7);
+  padding: 1.5rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+
+.wood label:first-child{
+  text-align: center;
+}
+
+.wood label:last-child{
+  text-align: left;
+}
+
+.wood input{
+  text-align: center;
+}
+
+.wood2 {
+  padding: 1rem 1rem 0rem 1rem;
+  display: flex;
+  width: fit-content;
+  border-radius: 1rem;
+}
+
+.botonMontoTotal {
+  padding: .5rem;
+  width: 8rem;
+  border-radius: .8rem;
+  margin: auto;
+}
+
+.contenedorBoton {
+  justify-content: center;
+  margin: auto;
+}
+
+.centrador {
+  background: #66d7d1;
+  padding: 2rem;
+  width: 600px;
+  margin: auto;
+}
+
+.rojo {
+  color: darkred;
+  margin: 2rem 0 0 0 ;
+}
+
+.blue {
+  color: black;
+  margin: 2rem 0 0 0 ;
+}
+
+label{
+  font-family: Pangolin, cursive;
+  font-size: larger;
+}
+
+button, .seleccion{
+  font-family: Rubik, sans-serif;
+  font-weight: 600;
+}
+
+.seleccion{
+  font-size: .9rem;
+}
+
+.tablero{
+  display: flex;
+  flex-direction: row;
+}
